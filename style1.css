@@ -1,0 +1,24 @@
+/* Resalta los elementos impares */
+ul li:nth-child(odd) {
+    background-color: lightcoral;
+}
+
+/* Resalta los elementos pares */
+ul li:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Estiliza el primer y último elemento */
+ul li:first-child, ul li:last-child {
+    color: darkgreen;
+}
+
+/* Selecciona todos los párrafos excepto el primero */
+div p:not(:first-child) {
+    font-weight: bold;
+}
+
+/* Aplica un color especial al tercer elemento de una lista */
+ul li:nth-child(3) {
+    color: purple;
+}

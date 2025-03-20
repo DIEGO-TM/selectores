@@ -1,0 +1,24 @@
+/* Selecciona solo los botones deshabilitados y cambia su opacidad */
+button:disabled {
+    opacity: 0.5;
+}
+
+/* Oculta los elementos vacíos dentro de una lista */
+li:empty {
+    display: none;
+}
+
+/* Selecciona el último hijo de cada fila de una tabla y resáltalo */
+tr td:last-child {
+    background-color: lightpink;
+}
+
+/* Aplica estilos alternos a las filas de una tabla, pero solo después de la tercera fila */
+tr:nth-child(n+4):nth-child(even) {
+    background-color: 2.0 lightcyan;
+}
+
+/* Selecciona todos los elementos de una lista, excepto el último */
+li:not(:last-child) {
+    color: darkblue;
+}
