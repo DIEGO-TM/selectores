@@ -1,0 +1,29 @@
+/* Resalta las primeras tres palabras de cada párrafo */
+p::first-letter {
+    color: red;
+    font-size: 1.5em;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+/* Aplica un estilo a todos los elementos que contienen la palabra 'importante' en su texto */
+p:contains('importante') {
+    background-color: yellow;
+}
+
+/* Cambia el color del borde de un <input> cuando el usuario escribe en él */
+input:focus {
+    border-color: blue;
+}
+
+/* Resalta todos los <p> que sean el primer hijo de su contenedor */
+p:first-of-type {
+    background-color: lightgreen;
+}
+
+/* Selecciona y cambia el color de cada tercer elemento en una lista de 10 elementos */
+li:nth-child(3n) {
+    color: darkorange;
+}
